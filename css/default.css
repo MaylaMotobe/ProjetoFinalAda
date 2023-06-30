@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700&family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: #999999;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.divisoria{
+    height: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.658);
+    
+}
+/*NAVEGADOR - MENU*/
+#cabecalho {
+    width: 100%;
+    height: 120px;
+    background-color: #b967c8ef;
+}
+
+.shadownav{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.658);
+}
+#logo img {
+    margin-top:16px;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: end;
+    padding-top: 48px;
+    width: 100%;
+}
+
+#menu ul li {
+    padding-left: 30px;
+}
+
+#menu ul li a {
+    color: #ffffff;
+    height: 24px;
+    padding-bottom: 4px;
+    transition: color 0.3s;
+    position: relative;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    color: #5D3364;
+    transition: 0.3s;
+}
+
+
+/*INDEX - BEM VINDOS - CARDS PRODUTOS*/
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+
+/*LISTA DE PRODUTOS - INDEX*/
+#produtos{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.produto a {
+    margin-top: 10px;
+}
+
+#produtos h2 {
+    font-family: 'Merriweather', serif;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #3C4E58;
+    text-align: center;
+}
+
+#lista-produtos {
+    display: flex;
+    margin: auto;
+}
+
+.produto { 
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
+}
+
+.produto h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 21px;
+    margin-top: 15px;
+    color: #3C4E58;
+}
+
+.produto img {
+    width: 100%;
+}
+
+.preco {
+    font-size: 1.5rem;
+}
+
+/*TODOS OS PRODUTOS - PÁGINA SEPARADA*/
+#todos-produtos {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #3C4E58;
+
+}
+
+.faleconosco{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #3C4E58;
+}
+
+/*BOTÕES INDEX, FORMULÁRIO E RODAPÉ*/
+.botao {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    width: calc(100% - 30px);
+    background-color: #BA67C8;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+}
+
+.botao:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #5D3364;
+    transition: background-color 1s;
+}
+
+#btn-form{
+    color: #ffffff;
+    background-color: #BA67C8;
+    text-decoration: none;  
+}
+
+#btn-form:hover{
+    background-color: #5D3364;
+    transition: background-color 1s;
+    text-decoration: none;
+}
+
+#btn-index{
+    color: #ffffff;
+    background-color: #BA67C8;
+    text-decoration: none;
+    font-family: 'Merriweather', serif; 
+    margin-bottom: 30px;
+}
+
+#produtosbtn-index{
+    color: #ffffff;
+    background-color: #5D3364;
+    text-decoration: none;
+    font-family: 'Merriweather', serif; 
+    margin-bottom: 30px;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+#produtosbtn-index:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #BA67C8;
+    transition: background-color 1s;
+}
+#btn-index:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #5D3364;
+    transition: background-color 1s;
+}
+
+
+
+/*QUEM SOMOS - NO INDEX E NA PÁGINA PRÓPRIA*/
+#quem-somos{
+    padding-top: 60px;
+}
+#quem-somos h2 {
+    font-family: 'Merriweather', serif;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #3C4E58;
+
+}
+
+#quem-somos a {
+    font-family: 'Merriweather', serif;
+    margin-top: 20px;
+    background-color: #BA67C8;
+    color: white;
+}
+
+#quem-somos img {
+    width: 100%;
+}
+
+.quem-somos img{
+    width: 70%;
+    padding-top: 90px;
+}
+
+.quem-somos .texto{
+    padding-left: 70px;
+    text-align: justify;
+}
+
+.texto-quem-somos{
+    text-align: justify;
+}
+
+.titulo-quem-somos{
+    padding: 0px 0px 40px 100px;
+    font-family: 'Merriweather', serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    color: #3C4E58;
+}
+
+#quem-somos .texto {
+    padding-left: 40px;
+}
+
+/*CARDS QUEM SOMOS*/
+.card{
+    margin: 10px;
+    text-align: center;
+}
+#cards-quem-somos{
+    padding: 30px 40px 30px 40px;
+}
+.card-text{
+    text-align: justify;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.card-body:hover{
+    background-color: #F1E1F4;
+    transition: background-color 1s;
+}
+
+ /*PSEUDOELEMENTO NO FORMULÁRIO - CONTATO*/
+::placeholder{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/*PRODUTOS*/
+#todos-produtos h2{
+    margin-bottom: 50px;
+}
+
+#todos-produtos h2::before{
+    content: '🧶';
+}
+/*CONTATO*/
+#contato{
+    padding-top: 50px;
+}
+#contato img {
+    width: 100%;
+}
+#contato h2 {
+    font-family: 'Merriweather', serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #3C4E58;
+}
+/*RODAPÉ*/
+#rodape {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    background-color: #5D3364;
+    color: #ffffff;
+}
+
+#rodape h2 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#rodape li, #rodape p {
+    color: #ffffff;
+    line-height: 1.75em;
+}
+
+#rodape a {
+    color: #F1E1F4;
+}
+
+#rodape button {
+    color: #ffffff;
+    background-color: #BA67C8;
+}
+
+@media (max-width: 768px) {
+    #logo img {
+        width: 320px;
+    }
+    #menu {
+        background-color: #5D3364;
+        padding: 0;
+    }
+    #menu ul {
+        padding-top: 12px;
+        justify-content: space-between;
+    }
+    
+    #menu ul li {
+        padding: 0 18px;
+    }
+    #principal h1 {
+        font-size: 32px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        line-height: 48px;
+    }
+    #principal p {
+        text-align: center;
+    }
+    #texto p {
+        text-align: left;
+    }
+    #rodape .col-lg-4 {
+        padding-bottom: 40px;
+    }
+    #contato h1 {
+        padding-top: 30px;
+    }
+}
