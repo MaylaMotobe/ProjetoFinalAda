@@ -1,2 +1,2 @@
 # lojinha-da-maria
-Projeto de loja virtual com a turma 1029
+Projeto Final do Modulo 01 - Ada Tech - Start Tech
